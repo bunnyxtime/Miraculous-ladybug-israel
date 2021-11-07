@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'danayad';
+    src: url('danayadalefalefalef-normal-webfont.eot');
+    src: url('danayadalefalefalef-normal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('danayadalefalefalef-normal-webfont.woff2') format('woff2'),
+         url('danayadalefalefalef-normal-webfont.woff') format('woff'),
+         url('danayadalefalefalef-normal-webfont.ttf') format('truetype'),
+         url('danayadalefalefalef-normal-webfont.svg#dana_yad_alefalefalefnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nadavb';
+    src: url('NadavB.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    direction: rtl;
+    background: linear-gradient(13deg, #693e7c 0%, #e70c0c 70%);
+    background-clip: text;
+    -webkit-fill-color: transparent;
+    background-repeat: no-repeat;
+}
+
+p {
+    text-align: center;
+    font-family: danayad;
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+video {
+    text-align: center;
+
+
+}
